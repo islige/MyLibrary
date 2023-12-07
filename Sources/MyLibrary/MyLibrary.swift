@@ -3,4 +3,8 @@ public struct MyLibrary {
 
     public init() {
     }
+    
+    public func log(_ message: String) {
+        debugPrint(message)
+    }
 }
